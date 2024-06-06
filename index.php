@@ -15,7 +15,7 @@
         <div class="alert alert-success" role="alert">
         Su mensaje ha sido: <?php 
         if (isset($_POST["texto"])) {
-           // echo $_POST["texto"];
+           echo $_POST["texto"];
            echo htmlspecialchars($_POST["texto"], ENT_QUOTES, 'UTF-8');
  
         }
